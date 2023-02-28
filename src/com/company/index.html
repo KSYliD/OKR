@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="author" content="Kondrasiuk">
     <title>Libraries</title>
+    <style>
+        a {
+            color: blue;
+        }
 
+        a:visited {
+            color: darkmagenta;
+        }
+
+        a:hover {
+            color: blueviolet;
+        }
+    </style>
 </head>
-<body link="aqua"
-      vlink="blue">
-<background></background>
+<body>
 <h1>Libraries</h1>
 
-<p style="font-family:'Courier New'"><font color="blue">Бібліотека</font> — це систематизована колекція джерел
+<p style="font-family:'Courier New'" class="pLibraries"><font color="blue">Бібліотека</font> — це систематизована колекція джерел
     інформації та подібних ресурсів,
     відібрана експертами
     та доступна певній спільноті для ознайомлення чи запозичення. Вона забезпечує фізичний або цифровий
@@ -22,7 +33,7 @@
 <a href="https://uk.wikipedia.org/wiki/%D0%91%D1%96%D0%B1%D0%BB%D1%96%D0%BE%D1%82%D0%B5%D0%BA%D0%B0">Wiki</a>
 <div>
     <div>
-        <h2>Зміст</h2>
+        <h2 style="color: brown">Зміст</h2>
     </div>
     <ol type="1">
         <li><a href="#definition">Визначення</a></li>
@@ -34,7 +45,7 @@
 
 <h3>Визначення</h3>
 <hr>
-<p id="definition">Слово «бібліотека» — можливо, через польське посередництво — запозичено з лат. bibliothēca, що
+<p id="definition" class="pLibraries">Слово «бібліотека» — можливо, через польське посередництво — запозичено з лат. bibliothēca, що
     походить од грец.
     βιβλιοθήκη, утвореного з основ слів βιβλιον «книжка» і θηκη «сховище», «скриня»[3]. В українській мові цей термін
     традиційно позначає колекцію книг або приміщення, де зберігаються книги.
@@ -76,7 +87,7 @@
 
 <h3>Стародавні бібліотеки</h3>
 <hr>
-<p id="ancient_libraries" style="background-image: url('img_3.png'); color: aliceblue ">Першою відомою бібліотекою
+<p class="pLibraries" id="ancient_libraries" style="background-image: url('img_3.png'); color: aliceblue ">Першою відомою бібліотекою
     можна вважати храм в Ніппурі. У храмовій школі, так званій е-дубі («будинок табличок»),
     була знайдена Ніппурська бібліотека: понад 30 000 табличок з адміністративними, юридичними, медичними, літературними
     та історичними текстами, багато з яких досі не опубліковані.

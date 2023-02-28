@@ -1,0 +1,40 @@
+.pLibraries {
+    color: black;
+    font-size: 110%;
+    font-family: "Times New Roman";
+    line-height: 1.5;
+    text-align: center;
+}
+body{
+    background-color: moccasin ;
+}
+h2{
+    color: black !important;
+}
+th {
+    background-color: #009879;
+    color: white;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px 15px;
+}
+
+tbody tr {
+    border-bottom: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 10px;
+    font-size: 0.9em;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+ul {
+    list-style-type: circle;
+}
