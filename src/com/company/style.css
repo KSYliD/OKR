@@ -38,3 +38,14 @@ ol {
 ul {
     list-style-type: circle;
 }
+
+b + i{
+    color: darkblue;
+}
+p b{
+    color: darkblue;
+}
+p>i{
+    font-family: Calibri;
+    color: darkgray;
+}
