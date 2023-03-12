@@ -1,16 +1,13 @@
 .pLibraries {
     color: black;
     font-size: 110%;
-    font-family: "Times New Roman";
+    font-family: "Times New Roman", serif;
     line-height: 1.5;
-    text-align: center;
 }
 body{
     background-color: moccasin ;
 }
-h2{
-    color: black !important;
-}
+
 th {
     background-color: #009879;
     color: white;
@@ -46,6 +43,16 @@ p b{
     color: darkblue;
 }
 p>i{
-    font-family: Calibri;
-    color: darkgray;
+    font-family: Calibri, serif;
+}
+span{
+    color: darkblue;
+}
+h1:first-child{
+    color: navy;
+}
+#picture{
+    float: left;
+    position: relative;
+    padding: 10px;
 }
